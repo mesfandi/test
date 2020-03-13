@@ -1,0 +1,50 @@
+body{
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    color: blue;
+    border: 5px solid blue;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+form{
+    border: 5px solid blue;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    color: red;
+    text-transform: uppercase;
+    padding-left: 20px;
+    width: 50px;
+}
+
+
+.head{
+text-transform: uppercase;
+font-weight: lighter;
+letter-spacing: 2px;
+display: block;
+border-left: 5px gray;
+text-decoration: underline;
+}
+
+textarea{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+table{
+    width: 100%;
+}

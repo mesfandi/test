@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Homework</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Student Survey Form</h1>
+    <form>
+        <div>
+            <h3 class= "head">INFORMATION:</h3>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="firstName">First Name:</label>
+
+                    </td>
+                    <td>                        
+                        <input id="firstName" type="text" placeholder="First Name" required>
+                    </td>
+                    <td>
+                        <label for="lastName">Last Name:</label>
+                    </td>
+                    <td>
+                        <input id="lastName" type="text" placeholder="Last Name" required>
+                    </td>
+                    <td>
+                        <label for="streetAdress">Street:</label>
+                    </td>
+                    <td>
+                        <input id="streetAdress" type="text" placeholder="Street" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="city">City:</label>
+                    </td>
+                    <td>
+                        <input id="city" type="text" placeholder="City" required>
+                    </td>
+                    <td>
+                        <label for="state">State:</label>
+
+                    </td>
+                    <td>
+                        <input id="state" type="text" placeholder="State" required>
+                    </td>
+                    <td>
+                        <label for="zip">Zip:</label>
+                    </td>
+                    <td>
+                        <input id="zip" type="number" placeholder="Zip" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tel">Telephone:</label>
+                    </td>
+                    <td>
+                        <input id="tel" type="number" placeholder="Telephone" required>
+                    </td>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input id="email" type="email" placeholder="Email" required>
+                    </td>
+                    <td>
+                        <label for="date">User:</label>
+                    </td>
+                    <td>
+                        <input id="date" type="date" placeholder="Date" required>
+                    </td>
+                </tr>
+            </table>
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        </div>
+
+        <div>   
+        <h3 class= "head">What did like most about the campus?</h3>
+            <label for="students">Students</label>
+            <input name= "like" id="students" type="checkbox" value="students">
+
+            <label for="Location">Location</label>
+            <input name= "like" id="Location" type="checkbox" value="Location">
+
+            <label for="Campus">Campus</label>
+            <input name= "like" id="Campus" type="checkbox" value="Campus">
+
+            <label for="Atmosphere">Atmosphere</label>
+            <input name= "like" id="Atmosphere" type="checkbox" value="Atmosphere">
+
+            <label for="DoreRooms">Dore Rooms</label>
+            <input name= "like" id="DoreRooms" type="checkbox" value="DoreRooms">
+
+            <label for="Sports">Sports</label>
+            <input name= "like" id="Sports" type="checkbox" value="Sports">
+        </div> 
+
+        <div>
+            <h3 class= "head">
+                How do you became interested in the university?
+            </h3>
+
+            <label for="Friends">Friends</label>
+            <input name= "interested" id="Friends" type="radio" value="Friends">
+
+            <label for="Television">Television</label>
+            <input name= "interested" id="Television" type="radio" value="Television">
+
+            <label for="Internet">Internet</label>
+            <input name= "interested" id="Internet" type="radio" value="Internet">
+
+            <label for="Other">Other</label>
+            <input name= "interested" id="Other" type="radio" value="Other">
+        </div>
+
+        <div>
+            <h3 class= "head">How likely do you recommend this school to other prospective students?</h3>
+
+            <select name="recommend">
+                <option value="Very">Very Likely</option>
+                <option value="Likely">Likely</option>
+                <option value="Unlikely">Unlikely</option>
+            </select>
+        </div>
+        <div>
+            <h3 class= "head">Fill to win!</h3>
+            <label for="Raffle">Raffle</label>
+            <input id="Raffle" type="text" placeholder="Raffle" required>
+        </div>
+
+        <div>
+            <h3 class= "head">Comments:</h3>
+            <textarea name="Comments" id="Comments" cols="130" rows="10"></textarea>
+        </div>
+        <button>Submit</button>
+        <button>Cancel</button>
+    </form>
+</body>
+</html>
